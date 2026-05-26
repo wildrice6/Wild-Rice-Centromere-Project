@@ -14,19 +14,14 @@ Main research topics:
 - Pan‑centromere gene density, functional enrichment and evolutionary patterns
 - Batch plotting and statistical visualization for manuscript figures
 
-## Full Pipeline Directory Structure（点击文件夹直接跳转）
-- [01.Genome preprocessing](https://github.com/wildrice6/Wild-Rice-Centromere-Project/blob/main/01.Quality_assessment) — 基因组预处理、序列清洗、格式标准化
-- [02.Centromere boundary prediction](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/02.SV_between_haplotypes) — 着丝粒区间预测(Cent‑Mind)、CENH3富集区整合
-- [03.Repeat annotation](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/03.Centromere_region_Identification) — 全基因组重复序列注释、卫星序列挖掘
-- [04.CENH3‑ChIP‑seq analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/04.Centromere position normalization and haplotype similarity analysis) — ChIP‑seq mapping、peak calling、功能着丝粒定位
-- [05.CRM‑LTR transposon analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/05.Centromere integrated annotation system) — CRM元件、LTR转座子注释、着丝粒富集分析
-- [06.Monomer identification](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/06.Centromeric sequences and evolutionary analysis) — ModDotPlot调用、k‑mer分析、单体聚类
-- [07.Repeat monomer and HOR inference](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat monomer and HOR inference)
-  - [step3_centromeric_monomer_identification](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference/step3_centromeric_monomer_identification) — 着丝粒单体鉴定、脚本批量生成
-  - [step4_monomer_characteristics](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference/step4_monomer_characteristics) — 拷贝数、覆盖度、AT含量、种内/种间相似性
-  - [step6_HORs_characteristics](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference/step6_HORs_characteristics) — HOR块大小、分布、距离、CENH3关联
-- [08.Pan‑centromere gene analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/08.Pan-centromere%20gene%20analysis) — 着丝粒基因注释、eggNOG功能富集
-- [09.Statistics & visualization](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/09.Statistics%20%26%20visualization) — 批量R/Python绘图、统计检验、结果汇总
+## Full Pipeline Directory Structure
+- [01.Quality_assessment](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/01.Quality_assessment) — 基因组质量评估、序列质控
+- [02.SV_between_haplotypes](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/02.SV_between_haplotypes) — 单倍型间结构变异分析
+- [03.Centromere_region_Identification](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/03.Centromere_region_Identification) — 着丝粒区域定位与边界识别
+- [04.Centromere_position_normalization_and_haplotype_similarity_analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/04.Centromere_position_normalization_and_haplotype_similarity_analysis) — 着丝粒位置标准化、单倍型相似性分析
+- [05.Centromere_integrated_annotation_system](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/05.Centromere_integrated_annotation_system) — 着丝粒整合注释体系构建
+- [06.Centromeric_sequences_and_evolutionary_analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/06.Centromeric_sequences_and_evolutionary_analysis) — 着丝粒序列挖掘与进化动力学分析
+- [07.Repeat_monomer_and_HOR_inference](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat_monomer_and_HOR_inference)
 
 ## Software & Dependencies
 - Python ≥3.9: Biopython, Pandas, Matplotlib, Seaborn, Scipy
