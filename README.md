@@ -16,12 +16,12 @@ Main research topics:
 
 ## Full Pipeline Directory Structure（点击文件夹直接跳转）
 - [01.Genome preprocessing](https://github.com/wildrice6/Wild-Rice-Centromere-Project/blob/main/01.Quality_assessment) — 基因组预处理、序列清洗、格式标准化
-- [02.Centromere boundary prediction](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/02.Centromere%20boundary%20prediction) — 着丝粒区间预测(Cent‑Mind)、CENH3富集区整合
-- [03.Repeat annotation](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/03.Repeat%20annotation) — 全基因组重复序列注释、卫星序列挖掘
-- [04.CENH3‑ChIP‑seq analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/04.CENH3-ChIP-seq%20analysis) — ChIP‑seq mapping、peak calling、功能着丝粒定位
-- [05.CRM‑LTR transposon analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/05.CRM-LTR%20transposon%20analysis) — CRM元件、LTR转座子注释、着丝粒富集分析
-- [06.Monomer identification](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/06.Monomer%20identification) — ModDotPlot调用、k‑mer分析、单体聚类
-- [07.Repeat monomer and HOR inference](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference)
+- [02.Centromere boundary prediction](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/02.SV_between_haplotypes) — 着丝粒区间预测(Cent‑Mind)、CENH3富集区整合
+- [03.Repeat annotation](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/03.Centromere_region_Identification) — 全基因组重复序列注释、卫星序列挖掘
+- [04.CENH3‑ChIP‑seq analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/04.Centromere position normalization and haplotype similarity analysis) — ChIP‑seq mapping、peak calling、功能着丝粒定位
+- [05.CRM‑LTR transposon analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/05.Centromere integrated annotation system) — CRM元件、LTR转座子注释、着丝粒富集分析
+- [06.Monomer identification](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/06.Centromeric sequences and evolutionary analysis) — ModDotPlot调用、k‑mer分析、单体聚类
+- [07.Repeat monomer and HOR inference](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat monomer and HOR inference)
   - [step3_centromeric_monomer_identification](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference/step3_centromeric_monomer_identification) — 着丝粒单体鉴定、脚本批量生成
   - [step4_monomer_characteristics](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference/step4_monomer_characteristics) — 拷贝数、覆盖度、AT含量、种内/种间相似性
   - [step6_HORs_characteristics](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat%20monomer%20and%20HOR%20inference/step6_HORs_characteristics) — HOR块大小、分布、距离、CENH3关联
@@ -39,11 +39,6 @@ Main research topics:
 2. Run scripts sequentially by step number
 3. Modify file paths and species list for batch analysis
 4. Statistical results and figures are output in separate folders
-
-## Author
-wildrice6
-Research: Comparative genomics of centromeres in Oryza genus
-Lab: Qian Qian / Xiaoming Zheng Group
 
 ## Citation
 If you use this pipeline in your research, please cite our related work.
