@@ -1,0 +1,1 @@
+busco -m genome -i my_genome.fasta -o my_genome.output -c 4 -l ~/mysoftware/embryophyta_odb10 --offline -c 16
