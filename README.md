@@ -15,7 +15,7 @@ Main research topics:
 - Batch plotting and statistical visualization for manuscript figures
 
 ## Full Pipeline Directory Structure（点击文件夹直接跳转）
-- [01.Genome preprocessing](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/01.Genome%20preprocessing) — 基因组预处理、序列清洗、格式标准化
+- [01.Genome preprocessing](https://github.com/wildrice6/Wild-Rice-Centromere-Project/blob/main/01.Quality_assessment) — 基因组预处理、序列清洗、格式标准化
 - [02.Centromere boundary prediction](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/02.Centromere%20boundary%20prediction) — 着丝粒区间预测(Cent‑Mind)、CENH3富集区整合
 - [03.Repeat annotation](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/03.Repeat%20annotation) — 全基因组重复序列注释、卫星序列挖掘
 - [04.CENH3‑ChIP‑seq analysis](https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/04.CENH3-ChIP-seq%20analysis) — ChIP‑seq mapping、peak calling、功能着丝粒定位
