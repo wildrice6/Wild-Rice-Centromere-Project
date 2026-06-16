@@ -18,7 +18,7 @@ Full Pipeline Directory Structure
 - 02.SV_between_haplotypes (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/02.SV_between_haplotypes) — Structural variation analysis between haplotypes
 - 03.Centromere_region_Identification (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/03.Centromere_region_Identification) — Centromere region localization and boundary annotation
 - 04.Centromere_position_normalization_and_haplotype_similarity_analysis (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/04.Centromere_position_normalization_and_haplotype_similarity_analysis) — Centromere position normalization and haplotype similarity comparison
-- 05.Centromere integrated annotation system (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/05.Centromere integrated annotation system) — Integrated annotation workflow for centromeric regions
+- 05.Centromere_integrated_annotation_system (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/05.Centromere_integrated_annotation_system) — Integrated annotation workflow for centromeric regions
 - 06.Centromeric_sequences_and_evolutionary_analysis (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/06.Centromeric_sequences_and_evolutionary_analysis) — Centromeric sequence mining and evolutionary dynamics analysis
 - 07.Repeat_monomer_and_HOR_inference (https://github.com/wildrice6/Wild-Rice-Centromere-Project/tree/main/07.Repeat_monomer_and_HOR_inference) — Centromeric repeat monomer identification and HOR‑structure inference
 
