@@ -1,0 +1,1 @@
+python Centromeric_repeat_clustering_in_Oryza.py your_sequences.fasta -k 17 -o result.pdf
