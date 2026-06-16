@@ -1,0 +1,1 @@
+python HiTE-master/main.py --genome my_genome.fasta --outdir my_genome --curated_lib oryrep_modi.ref --thread 100 --annotate 1 --domain 1 --intact_anno 1 --thread 64
