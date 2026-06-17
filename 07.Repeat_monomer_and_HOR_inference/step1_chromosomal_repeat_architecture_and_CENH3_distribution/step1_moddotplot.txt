@@ -1,0 +1,5 @@
+source /share/org/YZWL/yzbsl_chengch/Software_local/ModDotPlot-main/venv/bin/activate
+
+moddotplot static -f W3012_Hap1.fa W3012_Hap1.fa
+
+moddotplot static -f W3012_Hap1_Centromere.fa W3012_Hap1_Centromere.fa
